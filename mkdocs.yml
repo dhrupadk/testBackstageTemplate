@@ -1,0 +1,14 @@
+site_name: "Postmortems"
+site_description: "A collection of postmortems conducted after incidents"
+
+nav:
+  - Introduction: index.md
+  - Postmortem Template: _template.md
+
+  - 1/30/23 - Nuke Failure: 23_01_30-nuke-failure.md
+  
+  - 2/20/23 - Nuke Partial Failure: 23_02_20-nuke-partial-failure.md
+  - 2/24/23 - Portal Blueprints Blank Errors: 24_02_23-portal-blueprints-blank-errors.md
+  - 3/31/23 - Portal Gameday Issues: 31_03_23_portal-gameday-issues.md
+plugins:
+  - techdocs-core
