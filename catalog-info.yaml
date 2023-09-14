@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "testbackstate"
-  description: "A collection of docs totestBackstag"
+  name: "Postmortems"
+  description: "A collection of postmortems conducted by the ACE SRE team"
   annotations:
-    gitlab.com/project-slug: Modernapp/testtechdoc
-    backstage.io/techdocs-ref: url:https://scm.ap.toyota-asia.com/tdem/modern-app/testbackstageimport/-/tree/master
-    spec:
+    github.com/project-slug: Toyota-Motor-North-America/ace-sre-postmortem-tech-docs
+    backstage.io/techdocs-ref: url:https://github.com/Toyota-Motor-North-America/ace-sre-postmortem-tech-docs
+spec:
   type: documentation
   lifecycle: production
-  owner: "TDEM-ModernApp"
+  owner: "Toyota-Motor-North-America"
