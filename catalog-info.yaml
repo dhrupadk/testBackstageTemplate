@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "Postmortems"
-  description: "A collection of postmortems conducted by the ACE SRE team"
+  name: "BackstageTest"
+  description: "A collection of documents for testing backstage import"
   annotations:
-    github.com/project-slug: Toyota-Motor-North-America/ace-sre-postmortem-tech-docs
-    backstage.io/techdocs-ref: url:https://github.com/Toyota-Motor-North-America/ace-sre-postmortem-tech-docs
+    github.com/project-slug: dhrupadk/testBackstageTemplate
+    backstage.io/techdocs-ref: url:https://github.com/dhrupadk/testBackstageTemplate
 spec:
   type: documentation
   lifecycle: production
-  owner: "Toyota-Motor-North-America"
+  owner: "TDEM"
